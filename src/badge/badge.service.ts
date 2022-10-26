@@ -15,6 +15,9 @@ export class BadgeService {
             case 'bada':
                 var logoDir = `./src/badge/assets/bada.txt`;
                 break;
+            case 'gdsc':
+                var logoDir = `./src/badge/assets/gdsc.txt`;
+                break;
             // case 'likelion':
             //     const logoDir = `./src/badge/assets/likelion.txt`;
             //     break;
@@ -22,11 +25,27 @@ export class BadgeService {
 
 
         var logo = readFileSync(join(process.cwd(), logoDir), 'utf8').toString();
+        
+        const arr = Array.from(name);
+        var textBoxWidth = 5 + 0 + 5
+        var textLength = 0;
+        
+        for (let index = 0; index < arr.length; index++) {
+            const element = arr[index];
+            if (element === element.toUpperCase()) {
+                textBoxWidth = textBoxWidth + 7.5;
+                textLength = textLength + 75;
+            } else if (element === element.toLowerCase()) {
+                textBoxWidth = textBoxWidth + 6.5;
+                textLength = textLength + 65;
+            }
+        }
+
         const iconBoxWidth = 19;
-        const textBoxWidth = 5 + (name.length * 6.2) + 5
+        // const textBoxWidth = 5 + (name.length * 6.2) + 5
         const width = iconBoxWidth + textBoxWidth;
         const x = (iconBoxWidth * 10) + ((textBoxWidth * 10) / 2);
-        const textLength = name.length * 63;
+
         return `
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="20" role="img" aria-label="${name}">
                 <title>${name}</title>
