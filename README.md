@@ -14,7 +14,7 @@
   <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=232F3E"/>
 </p>
 
-This backent web service is prepared for badges which are not provided by `simpleicons.org`. Therefore, in this service, it is possible to make customized badge with special icon, text and color.
+This `badge-web-service` is designed for customized badges which are not provided by `simpleicons.org` or other services. For example, somebody may want to make unique badges for schools, clubs, or events. In this sense, this service make it possible to make customized badge with special icon, text and color.
 
 <br/>
 
