@@ -11,6 +11,7 @@
   <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
   <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
   <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
+  <img src="https://github-badge-maker.herokuapp.com/badge?logo=ku3ds&name=KU-3DS&color=232F3E"/>
   <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=232F3E"/>
 </p>
 
