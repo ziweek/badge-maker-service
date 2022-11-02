@@ -21,6 +21,9 @@ export class BadgeService {
             case 'brightics':
                 var logoDir = `./src/badge/assets/brightics.txt`;
                 break;
+            case 'ku3ds':
+                var logoDir = `./src/badge/assets/ku3ds.txt`;
+                break;
             // case 'likelion':
             //     const logoDir = `./src/badge/assets/likelion.txt`;
             //     break;
