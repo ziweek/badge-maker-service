@@ -39,9 +39,10 @@ This `badge-maker-service` is designed for customized badges which are not provi
 
 ## How to Add
 1. Prepare `.svg` file.
-2. Encode the `.svg` file into `base64`.
-3. Put the encoded `base64` file in `src/badge/assets` folder.
-4. Add script to read asset file.
+2. Choose `Data URI` option at Dropbox menu.
+3. Encode the `.svg` file into `base64`.
+4. Put the encoded `base64` file in `src/badge/assets` folder.
+5. Add script to read asset file.
 
 ```typescript
   switch(logo) {
