@@ -1,4 +1,4 @@
-# badge-maker-service
+# readme-maker-service
 
 <p align="center">
   <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
